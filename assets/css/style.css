@@ -5,6 +5,11 @@
     
 }
 
+#topwidth {
+    width: 83%;
+    margin: 0 auto;
+}
+
 .topBar {
     border-bottom: solid;
     border-width: 5px;
@@ -26,8 +31,8 @@
     font-family: 'Georgia', Times, Times New Roman, serif;
     color:#ffffff;
     position: relative;
-    left: 40px;
     font-size: 20px;
+    
 }
 
 li {
@@ -42,7 +47,7 @@ li {
     margin: 10px 10px 10px 10px;
     color: #777777;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    
+
 }
 
 
@@ -106,19 +111,20 @@ p {
 }
 
 a:link {
-    color:#777777
+    color:#777777;
+    text-decoration: none;
 }
 
 a:active {
-    color:#4aaaa5
+    color:#4aaaa5;
 }
 
 a:visited {
-    color: #777788
+    color: #777788;
 }
 
 a:hover{
-    color: #4aaaa56b
+    color: #4aaaa56b;
 }
 
 input [type=text], select, textarea {
