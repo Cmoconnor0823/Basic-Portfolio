@@ -1,25 +1,17 @@
 <!doctype html>
 <html>
     <!--Look into dive class fluid to make bars stetch full page-->
-        <head>
-
+<head>
+    <meta charset="UTF-8">
             <!--Link to external CSS Style sheet-->
-
-            <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-
-            <title>Portfolio</title>
-
-            <meta charset="UTF-8">
-
-            
-        </head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    </head>
 
     <body>
-
-        <nav class="topBar">
-              
-            <div id="topwidth">
-                
+    <header id="topBar">  
+        <div id="topwidth">
+            <nav>
                 <div id="yourName">
             
                     <h1>Caitlin O'Connor</h1>
@@ -33,33 +25,32 @@
                     <li><a class="link" href="contact.html">Contact</a></li>
             
                 </ul>
-            
-            </div>
+            </nav>
+        </div>
+    </header>
         
-        </nav>
+        
 
-        <div class="backShell">
+    <div id="backShell"  class="container">
 
             <!--Header Name-->
             
-
-
-            <Article class="middleBox">
+        <Article class="middleBox">
                     
-                    <h1 id="boldTitle"> About Me</h1>
+            <h1 id="boldTitle"> About Me</h1>
 
-                        <div class="container">
-                            <form action="action_page.php:">
+                <div class="container">
+                    <form action="action_page.php:">
 
-                                <label for="fname">First Name</label>
-                                <input type="text" id="fname" name="firstname" placeholder="Your first name..">
-
-                                <label for="lname">Last Name</label>
-                                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-                                <label for="subject">Subject</label>
-                                <textarea id="subject" name="subject" placeholder="Write something here.." style="height:200px">
-                             </textarea>
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+                        <br><br>
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                            <br><br>
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something here.." style="height:200px">
+                     </textarea>
 
                              <input type="submit" value="Submit">
 
@@ -67,15 +58,13 @@
                         
                         </div>
 
-             </article>
-
-            <section class="bottomBar">
-
-                    Copywrite
-
-            </section>
-
-        </div>
+        </article>
+    </div>
+        <footer>
+            <div class="container">
+                Copyright &copy;
+            </div>
+        </footer>
 
     </body>
 
