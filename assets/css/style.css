@@ -6,22 +6,18 @@
 
 
 
-.container{
-    width: 100%;
-    margin: 0 auto;
-    clear: both;
 
-}
 
 .topBar {
     position: relative;
     z-index: 99;
     border-bottom: solid #cccccc solid;
     border-width: 5px;
-    margin: 0 0 30px;
     color:#ffffff;
     background-color: #ffffff;
     width: 100%;
+    height: 100px;
+    clear: both;
 
 }
 
